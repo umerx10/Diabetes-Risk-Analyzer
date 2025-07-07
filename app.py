@@ -5,7 +5,7 @@ from keras.models import load_model
 
 app = Flask(__name__)
 
-# Load the trained model and scaler
+
 model = load_model('diabetes_model.h5')
 scaler = joblib.load('scaler.pkl')
 
